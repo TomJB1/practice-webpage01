@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+head {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+header-logo {
+    align-self: flex-start;
+    flex-basis: 0px;
+}
+
+header-links {
+    align-self: flex-end;
+    flex-basis: 0px;
+}
