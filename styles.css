@@ -1,25 +1,35 @@
-body {
+.body {
     display: flex;
     flex-direction: column;
 }
 
-head {
+.head {
     display: flex;
     flex-direction: column;
 }
 
-header {
+.header {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    background-color: aqua;
+    align-self: stretch;
+    justify-content: space-between;
 }
 
-header-logo {
+div.header-logo {
+    padding: 5px;
+    padding-right: 40px;
+    margin: 10px;
+    font-size: 15px;
+    max-width: fit-content;
     align-self: flex-start;
-    flex-basis: 0px;
+    flex-basis: 40px;
 }
 
-header-links {
+div.header-links {
+    background-color: green;
+    padding-right: 40px;
+    padding: 5px;
+    margin: 10px;
+    font-size: 15px;
     align-self: flex-end;
-    flex-basis: 0px;
 }
