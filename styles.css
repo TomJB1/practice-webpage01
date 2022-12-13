@@ -34,20 +34,17 @@ div.header-links {
     padding-right: 40px;
     padding: 5px;
     margin: 10px;
-    font-size: 15px;
     align-self: flex-end;
     display: flex;
     justify-content: space-evenly;
     flex: 1;
     max-width: 500px;
-    font-size: 18px;
-    color: #E5E7EB;
-    font-family: inherit;
 }
 
 .sign-up-section {
     display: flex;
     justify-content: space-between;
+    padding: 20px;
 }
 
 .sign-up-text {
@@ -63,10 +60,18 @@ img {
     max-width: 70%;
 }
 
-.sign-up-text > h1 {
+div.sign-up-text > h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
     font-family: sans-serif;
 
+}
+
+.header-links, .sign-up-text > h4 {
+
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: sans-serif;
+    font-weight: 100;
 }
