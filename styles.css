@@ -6,13 +6,14 @@
 .head {
     display: flex;
     flex-direction: column;
+    background-color: #1F2937;
 }
 
 .header {
     display: flex;
-    background-color: aqua;
     align-self: stretch;
-    justify-content: space-between;
+    justify-content: space-around;
+    font-family: sans-serif;
 }
 
 div.header-logo {
@@ -23,13 +24,27 @@ div.header-logo {
     max-width: fit-content;
     align-self: flex-start;
     flex-basis: 40px;
+    flex: 1;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-family: inherit;
 }
 
 div.header-links {
-    background-color: green;
     padding-right: 40px;
     padding: 5px;
     margin: 10px;
     font-size: 15px;
     align-self: flex-end;
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    max-width: 500px;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: inherit;
+}
+
+.sign-up-section {
+    
 }
