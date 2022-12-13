@@ -15,6 +15,8 @@ body {
     align-self: stretch;
     justify-content: space-between;
     font-family: sans-serif;
+    width: 100%;
+    margin-bottom: 40px;
 }
 
 div.header-logo {
@@ -29,6 +31,8 @@ div.header-logo {
     font-size: 24px;
     color: #F9FAF8;
     font-family: inherit;
+    align-self: flex-start;
+    font-weight: bolder;
 }
 
 div.header-links {
@@ -44,12 +48,13 @@ div.header-links {
 
 .sign-up-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px;
 }
 
 .sign-up-text {
     width: 40%;
+    text-align: left;
 }
 
 .sign-up-picture {
@@ -77,6 +82,12 @@ div.sign-up-text > h1 {
     font-weight: 100;
 }
 
-a {
-    margin-right: 30px;
+.sign-up-button {
+    background-color: #3882F6;
+    border-radius: 6px;
+    border-style: none;
+    font-size: 17px;
+    color: #F9FAF8;
+    height: 40px;
+    width: 80px;
 }
