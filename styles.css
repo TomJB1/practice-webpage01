@@ -46,5 +46,27 @@ div.header-links {
 }
 
 .sign-up-section {
-    
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up-text {
+    width: 40%;
+}
+
+.sign-up-picture {
+    max-width: 50%;
+    object-position: 50% 50%;
+}
+
+img {
+    max-width: 70%;
+}
+
+.sign-up-text > h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    font-family: sans-serif;
+
 }
