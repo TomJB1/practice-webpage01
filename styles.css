@@ -1,6 +1,7 @@
-.body {
+body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .head {
@@ -12,7 +13,7 @@
 .header {
     display: flex;
     align-self: stretch;
-    justify-content: space-around;
+    justify-content: space-between;
     font-family: sans-serif;
 }
 
@@ -74,4 +75,8 @@ div.sign-up-text > h1 {
     color: #E5E7EB;
     font-family: sans-serif;
     font-weight: 100;
+}
+
+a {
+    margin-right: 30px;
 }
