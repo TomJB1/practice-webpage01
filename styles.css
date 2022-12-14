@@ -69,8 +69,10 @@ img {
 div.sign-up-text > h1 {
     font-size: 48px;
     font-weight: bolder;
+    letter-spacing: -1px;
     color: #F9FAF8;
     font-family: sans-serif;
+    word-spacing: -4px;
 
 }
 
@@ -89,5 +91,22 @@ div.sign-up-text > h1 {
     font-size: 17px;
     color: #F9FAF8;
     height: 40px;
-    width: 80px;
+    width: 130px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.info-title > h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    font-family: sans-serif;
+    padding-top: 36px;
+    letter-spacing: -1.5px;
 }
