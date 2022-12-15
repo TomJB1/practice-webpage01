@@ -50,6 +50,7 @@ div.header-links {
     display: flex;
     justify-content: space-around;
     padding: 20px;
+    flex-wrap: wrap;
 }
 
 .sign-up-text {
@@ -109,4 +110,18 @@ div.sign-up-text > h1 {
     font-family: sans-serif;
     padding-top: 36px;
     letter-spacing: -1.5px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.info-container > div {
+    margin: 10px;
+}
+
+.info-image {
+    padding: 10px;
 }
