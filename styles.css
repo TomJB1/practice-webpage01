@@ -101,6 +101,8 @@ div.sign-up-text > h1 {
     flex-direction: column;
     align-items: center;
     background-color: white;
+    align-items: stretch;
+    text-align: center;
 }
 
 .info-title > h1 {
@@ -116,12 +118,25 @@ div.sign-up-text > h1 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly; 
 }
 
 .info-container > div {
-    margin: 10px;
+    margin: 5px;
+    padding: 1px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .info-image {
-    padding: 10px;
+    max-width: 200%;
+}
+
+img.thumbnail-img {
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 4px;
 }
